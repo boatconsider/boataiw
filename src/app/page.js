@@ -11,39 +11,39 @@ export default function Home() {
 
 
   <div className="flex flex-row justify-center items-center flex-wrap ">
-  <div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden">
+  <div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden max-[480px]:m-0 max-[820px]:m-0">
   <video autoPlay loop className="absolute inset-0 w-full h-full object-cover">
-    <source src="/729429368.308975.mp4" type="video/mp4" />
+    <source src="/13.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
 
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 max-[480px]:m-0 max-[820px]:m-0">
   <video autoPlay loop className="absolute inset-0 w-full h-full object-cover">
     <source src="/1.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
 
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 max-[480px]:m-0 max-[820px]:m-0">
   <video autoPlay loop className="absolute inset-0 w-full h-full object-cover">
     <source src="/2.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden max-[480px]:m-0 max-[820px]:m-0 ">
   <video autoPlay loop className="absolute inset-0 w-full h-full object-cover">
     <source src="/3.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 max-[480px]:m-0 max-[820px]:m-0">
   <video autoPlay loop className="absolute inset-0 w-full h-full object-cover">
     <source src="/4.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 max-[480px]:m-0 max-[820px]:m-0">
   <video autoPlay loop className="absolute inset-0 w-full h-full object-cover">
     <source src="/5.mp4" type="video/mp4" />
     Your browser does not support the video tag.
@@ -51,33 +51,33 @@ export default function Home() {
 </div>
 
 
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden  max-[480px]:m-0 max-[820px]:m-0 ">
 <img src="/12.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
 </div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 max-[480px]:m-0 max-[820px]:m-0">
   <video autoPlay loop className="absolute inset-0 w-full h-full object-cover">
     <source src="/7.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 max-[480px]:m-0 max-[820px]:m-0">
   <video autoPlay loop className="absolute inset-0 w-full h-full object-cover">
     <source src="/8.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden  max-[480px]:m-0 max-[820px]:m-0 ">
   <video autoPlay loop className="absolute inset-0 w-full h-full object-cover">
     <source src="/9.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 max-[480px]:m-0 max-[820px]:m-0">
  
   <img src="/10.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
    
 </div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5">
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 max-[480px]:m-0 max-[820px]:m-0">
 <img src="/11.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
 </div>
 
@@ -91,3 +91,4 @@ export default function Home() {
 
   )
 }
+ 
