@@ -2,14 +2,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-<div className="h-auto  bg-slate-200">
+<div className="h-auto  bg-slate-200  ">
+<div>
+<img src="https://cdn.wallpapersafari.com/77/64/OeTYUZ.jpg" alt="" className="w-full h-full object-cover" />
+</div>
 <div className="text-center text-5xl">
   <h1 style={{ background: "-webkit-linear-gradient(45deg, #ff00ff, #ffffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Happy valentine's </h1>
   <div className="flex justify-center items-center flex-col ">
   <p style={{ background: "-webkit-linear-gradient(45deg, #ff00ff, #ffffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>กด play เพื่อเริ่มเพลง</p>
-  <audio controls loop className="mt-3">
+<div>
+  
+<audio controls autoPlay className="mt-3">
     <source className="mt-3" src="/หมดนี้ให้เธอ.mp3" type="audio/mpeg" />
-  </audio>
+  </audio>  
+</div>
 </div>
 </div>
 
