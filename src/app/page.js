@@ -7,9 +7,9 @@ export default function Home() {
 <img src="https://cdn.wallpapersafari.com/77/64/OeTYUZ.jpg" alt="" className="w-full h-full object-cover" />
 </div>
 <div className="text-center text-5xl">
-  <h1 style={{ background: "-webkit-linear-gradient(45deg, #ff00ff, #ffffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Happy valentine's </h1>
+  <h1 style={{ background: "-webkit-linear-gradient(45deg, #ff00ff, #ffffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}> สุขสันต์วันวาเลนไทน์ไอ้อ้วง🩷🩷 </h1>
   <div className="flex justify-center items-center flex-col ">
-  <p style={{ background: "-webkit-linear-gradient(45deg, #ff00ff, #ffffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>กด play เพื่อเริ่มเพลง</p>
+  <p style={{ background: "-webkit-linear-gradient(45deg, #ff00ff, #ffffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>กด play จิอิอิ</p>
 <div>
   
 <audio controls autoPlay className="mt-3">
