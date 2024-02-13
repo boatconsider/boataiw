@@ -5,6 +5,12 @@ export default function Home() {
 <div className="h-auto  bg-slate-200">
 <div className="text-center text-5xl">
   <h1 style={{ background: "-webkit-linear-gradient(45deg, #ff00ff, #ffffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Happy valentine's </h1>
+  <div className="flex justify-center items-center flex-col ">
+  <p style={{ background: "-webkit-linear-gradient(45deg, #ff00ff, #ffffff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>กรุณากด play เพื่อเริ่มเพลง</p>
+  <audio controls loop className="mt-3">
+    <source className="mt-3" src="/หมดนี้ให้เธอ.mp3" type="audio/mpeg" />
+  </audio>
+</div>
 </div>
 
 
@@ -22,50 +28,28 @@ export default function Home() {
 <div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0">
 <img src="/12.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
 </div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0">
-  <video  className="absolute inset-0 w-full h-full object-cover">
-    <source src="/1.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0  ">
+<img src="/15.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
 </div>
 
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0">
-  <video  className="absolute inset-0 w-full h-full object-cover">
-    <source src="/2.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</div>
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0 ">
-  <video  className="absolute inset-0 w-full h-full object-cover">
-    <source src="/3.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0  ">
+<img src="/16.png" alt="" className="absolute inset-0 w-full h-full object-cover" />
 </div>
 <div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0">
-  <video  className="absolute inset-0 w-full h-full object-cover">
-    <source src="/7.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+<img src="/17.png" alt="" className="absolute inset-0 w-full h-full object-cover" />
+</div>
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0  ">
+<img src="/18.png" alt="" className="absolute inset-0 w-full h-full object-cover" />
+</div>
+
+<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0  ">
+<img src="/19.png" alt="" className="absolute inset-0 w-full h-full object-cover" />
 </div>
 <div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0">
-<video  className="absolute inset-0 w-full h-full object-cover">
-    <source src="/13.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+<img src="/20.png" alt="" className="absolute inset-0 w-full h-full object-cover" />
 </div>
-
-
-<div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full  max-[480px]:m-0 max-[820px]:m-0 ">
-<video  className="absolute inset-0 w-full h-full object-cover">
-    <source src="/8.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-
-
-     
     </div>  
+  
 </div>
         
       
