@@ -43,10 +43,10 @@ export default function Home() {
 </div>
 
 <div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0  ">
-<img src="/19.png" alt="" className="absolute inset-0 w-full h-full object-cover" />
+<img src="/21.png" alt="" className="absolute inset-0 w-full h-full object-cover" />
 </div>
 <div className="relative w-[400px] h-[400px] bg-[#fff] mt-5 overflow-hidden ml-5 rounded-full max-[480px]:m-0 max-[820px]:m-0">
-<img src="/20.png" alt="" className="absolute inset-0 w-full h-full object-cover" />
+<img src="/22.png" alt="" className="absolute inset-0 w-full h-full object-cover" />
 </div>
     </div>  
   
